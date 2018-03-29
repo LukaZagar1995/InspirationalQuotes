@@ -12,7 +12,7 @@
         android:layout_marginTop="8dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="8dp"
-        android:src="@drawable/steveJobs"/>
+        android:src="@drawable/steve_jobs"/>
 
     <ImageView
         android:id="@+id/ivBillGates"
@@ -22,7 +22,7 @@
         android:layout_alignLeft="@id/ivSteveJobs"
         android:layout_alignStart="@id/ivSteveJobs"
         android:layout_below="@id/ivSteveJobs"
-        android:src="@drawable/billGates"/>
+        android:src="@drawable/bill_gates"/>
 
     <ImageView
         android:id="@+id/ivAlanTuring"
@@ -32,12 +32,12 @@
         android:layout_alignLeft="@id/ivBillGates"
         android:layout_alignStart="@id/ivBillGates"
         android:layout_below="@id/ivBillGates"
-        android:src="@drawable/alanTuring"/>
+        android:src="@drawable/alan_turing"/>
 
     <TextView
         android:id="@+id/tvSteveJobs"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignTop="@id/ivSteveJobs"
         android:layout_alignBottom="@id/ivSteveJobs"
         android:layout_toRightOf="@id/ivSteveJobs"
@@ -45,12 +45,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginEnd="8dp"
-         />
+        android:scrollbars="vertical"
+
+        />
 
     <TextView
         android:id="@+id/tvBillGates"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignTop="@id/ivBillGates"
         android:layout_alignBottom="@id/ivBillGates"
         android:layout_toRightOf="@id/ivBillGates"
@@ -58,17 +60,19 @@
         android:layout_marginRight="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:scrollbars="vertical"
+
         />
 
     <TextView
         android:id="@+id/tvAlanTuring"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignTop="@id/ivAlanTuring"
         android:layout_toRightOf="@id/ivAlanTuring"
         android:layout_toEndOf="@id/ivAlanTuring"
         android:layout_alignBottom="@id/ivAlanTuring"
-
+        android:scrollbars="vertical"
         android:layout_marginRight="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"

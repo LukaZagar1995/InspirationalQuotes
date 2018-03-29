@@ -1,7 +1,7 @@
 package com.example.zagar.prva_zadaca.PersonConstants;
 
-/**
- * Created by dayan on 29.3.2018..
+/*
+ * Created by Luka Žagar on 29.3.2018..
  */
 
 public interface SteveJobsConstants {
@@ -18,5 +18,6 @@ public interface SteveJobsConstants {
     String STEVE_JOBS_QUOTE_3="I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what’s next.";
     String STEVE_JOBS_QUOTE_4="Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.";
     String STEVE_JOBS_QUOTE_5="Quality is more important than quantity. One home run is much better than two doubles.";
+
 
 }

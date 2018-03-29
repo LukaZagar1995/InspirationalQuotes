@@ -1,7 +1,7 @@
 package com.example.zagar.prva_zadaca.PersonConstants;
 
-/**
- * Created by dayan on 29.3.2018..
+/*
+ * Created by Luka Žagar on 29.3.2018..
  */
 
 public interface BillGatesConstants {

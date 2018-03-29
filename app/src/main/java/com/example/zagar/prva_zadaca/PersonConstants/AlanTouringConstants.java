@@ -1,7 +1,7 @@
 package com.example.zagar.prva_zadaca.PersonConstants;
 
-/**
- * Created by dayan on 29.3.2018..
+/*
+ * Created by Luka Žagar on 29.3.2018..
  */
 
 public interface AlanTouringConstants {
@@ -9,7 +9,7 @@ public interface AlanTouringConstants {
     String ALAN_TOURING_FULL_NAME = "Alan Mathison Turing";
     String ALAN_TOURING_BIRTH_DATE = "23.6.1912.";
     String ALAN_TOURING_DEATH_DATE = "7.6.1954.";
-    String ALAN_TOURING_BIOGRAPHY = "Alan Mathison Turing bio je britanski matematičar,[1][2] logičar i kriptografer."+
+    String ALAN_TOURING_BIOGRAPHY = "Alan Mathison Turing bio je britanski matematičar,logičar i kriptografer."+
             "Turing se često smatra ocem modernog računarstva. Dao je doprinos konceptu algoritama i računanja sa Turingovim strojem. " +
             "Za vrijeme drugog svjetskog rata je radio u Bletchley Parku i sagradio stroj pomoću kojeg su saveznici mogli čitati njemačke poruke šifrirane preko Enigma uređaja. " +
             "Nakon rata je sagradio prva računala i bavio se problemima umjetne inteligencije. Poznat po ekscentričnom životnom stilu i homoseksualnosti, bio je uhićen godine 1952. " +
