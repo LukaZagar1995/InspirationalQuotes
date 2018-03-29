@@ -1,18 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.zagar.prva_zadaca.MainActivity.MainActivity">
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/ivSteveJobs"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/steveJobs"/>
+
+    <ImageView
+        android:id="@+id/ivBillGates"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignLeft="@id/ivSteveJobs"
+        android:layout_alignStart="@id/ivSteveJobs"
+        android:layout_below="@id/ivSteveJobs"
+        android:src="@drawable/billGates"/>
+
+    <ImageView
+        android:id="@+id/ivAlanTuring"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignLeft="@id/ivBillGates"
+        android:layout_alignStart="@id/ivBillGates"
+        android:layout_below="@id/ivBillGates"
+        android:src="@drawable/alanTuring"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tvSteveJobs"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignTop="@id/ivSteveJobs"
+        android:layout_alignBottom="@id/ivSteveJobs"
+        android:layout_toRightOf="@id/ivSteveJobs"
+        android:layout_toEndOf="@id/ivSteveJobs"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+         />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvBillGates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ivBillGates"
+        android:layout_alignBottom="@id/ivBillGates"
+        android:layout_toRightOf="@id/ivBillGates"
+        android:layout_toEndOf="@id/ivBillGates"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAlanTuring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ivAlanTuring"
+        android:layout_toRightOf="@id/ivAlanTuring"
+        android:layout_toEndOf="@id/ivAlanTuring"
+        android:layout_alignBottom="@id/ivAlanTuring"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        />
+
+
+</RelativeLayout>
