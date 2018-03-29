@@ -14,6 +14,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.text.method.ScrollingMovementMethod
 import android.widget.Toast
 import java.util.*
+import android.view.View.OnTouchListener
+
+
+
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -41,6 +46,24 @@ class MainActivity : AppCompatActivity() {
         tvSteveJobs.movementMethod = ScrollingMovementMethod()
         tvBillGates.movementMethod = ScrollingMovementMethod()
         tvAlanTuring.movementMethod = ScrollingMovementMethod()
+
+        scrollView.setOnTouchListener({ _, _ ->
+            tvSteveJobs.parent.requestDisallowInterceptTouchEvent(false)
+            tvBillGates.parent.requestDisallowInterceptTouchEvent(false)
+            tvAlanTuring.parent.requestDisallowInterceptTouchEvent(false)
+            false
+        })
+
+        tvSteveJobs.setOnTouchListener( { _, _ -> tvSteveJobs.parent.requestDisallowInterceptTouchEvent(true)
+            false
+        })
+
+        tvBillGates.setOnTouchListener( { _, _ -> tvBillGates.parent.requestDisallowInterceptTouchEvent(true)
+            false })
+
+        tvAlanTuring.setOnTouchListener( { _, _ -> tvAlanTuring.parent.requestDisallowInterceptTouchEvent(true)
+            false
+        })
 
         //Svakoj slici pridužujem metodu OnClickListener koja pritiskom na sliku vraća neki citat osobe
         ivSteveJobs.setOnClickListener {
