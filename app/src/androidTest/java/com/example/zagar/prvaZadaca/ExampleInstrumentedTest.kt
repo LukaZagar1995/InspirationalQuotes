@@ -1,4 +1,4 @@
-package com.example.zagar.prva_zadaca
+package com.example.zagar.prvaZadaca
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

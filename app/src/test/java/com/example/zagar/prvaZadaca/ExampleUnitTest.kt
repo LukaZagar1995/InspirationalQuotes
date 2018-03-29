@@ -1,4 +1,4 @@
-package com.example.zagar.prva_zadaca
+package com.example.zagar.prvaZadaca
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.zagar.prva_zadaca.PersonConstants;
+package com.example.zagar.prvaZadaca.PersonConstants;
 
 /*
  * Created by Luka Žagar on 29.3.2018..
